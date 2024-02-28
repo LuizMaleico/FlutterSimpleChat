@@ -1,0 +1,20 @@
+2024-02-28T15:16:19.395643834 0.004230s notice: Recursively removing directory /home/merito/aluraspring/gpt/rethinkdb_data/tmp
+2024-02-28T15:16:19.398378879 0.006964s notice: Initializing directory /home/merito/aluraspring/gpt/rethinkdb_data
+2024-02-28T15:16:19.398475505 0.007061s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/merito/aluraspring/gpt/rethinkdb_data' did not already exist or is empty.)
+2024-02-28T15:16:19.398511189 0.007097s notice: Running rethinkdb 2.4.4~0jammy (x86_64-linux-gnu) (GCC 11.4.0)...
+2024-02-28T15:16:19.402743146 0.011330s notice: Running on Linux 6.5.0-21-generic x86_64
+2024-02-28T15:16:19.403461250 0.012047s notice: Loading data from directory /home/merito/aluraspring/gpt/rethinkdb_data
+2024-02-28T15:16:19.423161826 0.031747s info: Automatically using cache size of 3818 MB
+2024-02-28T15:16:19.423773747 0.032359s notice: Listening for intracluster connections on port 29015
+2024-02-28T15:16:19.424600737 0.033186s notice: Listening for client driver connections on port 28015
+2024-02-28T15:16:19.424776557 0.033362s notice: Listening for administrative HTTP connections on port 8080
+2024-02-28T15:16:19.424787274 0.033373s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2024-02-28T15:16:19.424797066 0.033382s notice: Listening on driver addresses: 127.0.0.1, ::1
+2024-02-28T15:16:19.424805274 0.033391s notice: Listening on http addresses: 127.0.0.1, ::1
+2024-02-28T15:16:19.424815202 0.033401s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2024-02-28T15:16:19.424827366 0.033413s notice: Server ready, "merito_es40_gl2" e0ef308a-d33d-4840-995b-0d8d18befd9b
+2024-02-28T15:17:50.714104929 91.322691s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2024-02-28T15:17:50.714231362 91.322817s notice: Shutting down client connections...
+2024-02-28T15:17:50.714778608 91.323364s notice: All client connections closed.
+2024-02-28T15:17:50.714784913 91.323370s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2024-02-28T15:17:50.715906136 91.324492s notice: Storage engine shut down.
